@@ -35,7 +35,7 @@ fi
 
 # Configure — same flags as Pixel2 (RK3566 / Mali-G52)
 
-export CFLAGS="-Ofast -march=armv8-a -mtune=cortex-a35 -ffunction-sections -fdata-sections -fomit-frame-pointer -flto=auto -DNDEBUG -DHAVE_FILTERS_BUILTIN"
+export CFLAGS="-Ofast -mcpu=cortex-a55 -ffunction-sections -fdata-sections -fomit-frame-pointer -flto=auto -DNDEBUG -DHAVE_FILTERS_BUILTIN"
 export CXXFLAGS="$CFLAGS"
 export LDFLAGS="$LDFLAGS -Wl,--gc-sections -flto=auto"
 
