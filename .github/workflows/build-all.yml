@@ -33,3 +33,6 @@ jobs:
 
   pixel2:
     uses: ./.github/workflows/build-pixel2.yml
+
+  rgds:
+    uses: ./.github/workflows/build-rgds.yml
