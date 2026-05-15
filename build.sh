@@ -46,7 +46,6 @@ LDFLAGS="$LDFLAGS" \
     --enable-vulkan \
     --disable-opengl \
     --disable-qt \
-    --enable-kms \
     --enable-mali_fbdev \
     --disable-pulse \
     --disable-jack \
