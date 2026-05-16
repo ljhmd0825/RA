@@ -51,6 +51,7 @@ LDFLAGS="$LDFLAGS" \
     --disable-jack \
     --disable-oss \
     --disable-discord \
+    --enable-sunxi \
     --enable-udev \
     --enable-opengles \
     --enable-opengles3 \
